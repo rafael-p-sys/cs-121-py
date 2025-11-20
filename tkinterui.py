@@ -62,7 +62,7 @@ tk.Checkbutton(frame, text="Music", variable=hobby_music, bg="lightblue").grid(r
 
 tk.Label(frame, text="Country:", bg="lightblue", font=("Arial", 12)).grid(row=6, column=0, sticky="w", padx=5, pady=3)
 country_cb = ttk.Combobox(frame, values=["Philippines", "Japan", "USA", "Canada", "Australia"], width=27)
-country_cb.set("Select Country")  # default value
+country_cb.set("Select Country") 
 country_cb.grid(row=6, column=1, pady=5)
 
 tk.Label(window, text="Comments:", bg="lightblue", font=("Arial", 12)).pack(pady=5)
